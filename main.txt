@@ -33,7 +33,7 @@ Resources
 	desc: Get as many of these collectibles as you possibly can!
 	icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoffeCliker/Coffe-Bean.png
 Buttons
-	*coffeButton
+	*coffeButton 
 		on click:yield 1 coin 
 		class:bigButton hasFlares
 		icon:img/Coffee-Bean.png
