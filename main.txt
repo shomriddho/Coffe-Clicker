@@ -29,19 +29,19 @@ Buildings
 		icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoinMania/Metal%20Detector.png
 Resources
 	*coin|coins
-	name: Coin|Coins 
-	desc: Get as many of these shiny collectibles as you possibly can!
-	icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoinMania/coin.png
+	name: Coffe|Coffes
+	desc: Get as many of these collectibles as you possibly can!
+	icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoffeCliker/Coffe-Bean.png
 Buttons
 	*coffeButton
 		on click:yield 1 coin 
 		class:bigButton hasFlares
-		icon:/img/Coffee-Bean.png
+		icon:img/Coffee-Bean.png
 Upgrades
 	*magnet
 		name: Magnet
-		desc:Coins are metal... magnets attract metallic things... genius idea! multiply Income of metalDetectors by 2
-		passive:multiply yield of metalDetectors by 2
+		desc:Coins are metal... magnets attract metallic things... genius idea! multiply Income of coffeTree by 2
+		passive:multiply yield of coffeTree by 2
 		cost: 240 coins
 
 Achievements
