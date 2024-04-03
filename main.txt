@@ -1,0 +1,58 @@
+Let's make a game!
+	name:Coffe Clicker
+	by:Shomriddho
+	desc: Get More Coffee!
+	created: 4/4/2024
+	version:0.0
+	
+CSS
+#game.on 
+{
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+}
+.buldingIconSize
+{
+	width:64px;
+	height:64px;
+}
+Settings
+	background:https://file.garden/ZgxXXm_0xEVKwJwe/CoinMania/373260.jpg
+	stylesheet:stuff/bigBlue.css
+Buildings
+	*metalDetector|metalDetectors
+		name: Metal Detector
+		desc: Handy metal instruments to net you some coins. 
+		on tick:yield 1 coin
+		cost:40 coins
+		icon class:buldingIconSize
+		icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoinMania/Metal%20Detector.png
+Resources
+	*coin|coins
+	name: Coin|Coins 
+	desc: Get as many of these shiny collectibles as you possibly can!
+	icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoinMania/coin.png
+Buttons
+	*coinButton
+		on click:yield 1 coin 
+		class:bigButton hasFlares
+		icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoffeCliker/pngimg.com%20-%20mug_coffee_PNG16873.png
+Upgrades
+	*magnet
+		name: Magnet
+		desc:Coins are metal... magnets attract metallic things... genius idea! multiply Income of metalDetectors by 2
+		passive:multiply yield of metalDetectors by 2
+		cost: 240 coins
+
+Achievements
+	*coinCollector
+		name:Coin Collector
+		desc:You earned 100 coins! Welcome to the club of Coin Collectors!
+		req:100 coins:earned
+Shinies 
+	*luckyGnome
+  		name:Lucky gnome
+  		on click:yield (random(coins:ps*120,coins:ps*300)) coins
+  		movement:growShrink pulse:1 bobVertical:0.25 bobHorizontal:0.25 anywhere
+		class:hasFlares
+  		frequency:5
