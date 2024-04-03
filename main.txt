@@ -20,8 +20,8 @@ Settings
 	background:https://file.garden/ZgxXXm_0xEVKwJwe/CoinMania/373260.jpg
 	stylesheet:stuff/bigBlue.css
 Buildings
-	*metalDetector|metalDetectors
-		name: Metal Detector
+	*coffeTree|coffeTrees
+		name: Coffe Trees
 		desc: Handy metal instruments to net you some coins. 
 		on tick:yield 1 coin
 		cost:40 coins
@@ -33,10 +33,10 @@ Resources
 	desc: Get as many of these shiny collectibles as you possibly can!
 	icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoinMania/coin.png
 Buttons
-	*coinButton
+	*coffeButton
 		on click:yield 1 coin 
 		class:bigButton hasFlares
-		icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoffeCliker/pngimg.com%20-%20mug_coffee_PNG16873.png
+		icon:/img/Coffee-Bean.png
 Upgrades
 	*magnet
 		name: Magnet
