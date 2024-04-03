@@ -29,8 +29,8 @@ Buildings
 		icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoinMania/Metal%20Detector.png
 Resources
 	*coin|coins
-	name: Coin|Coins 
-	desc: Get as many of these shiny collectibles as you possibly can!
+	name: Coffe|Coffes
+	desc: Get as many of these collectibles as you possibly can!
 	icon:https://file.garden/ZgxXXm_0xEVKwJwe/CoinMania/coin.png
 Buttons
 	*coffeButton
